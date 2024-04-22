@@ -29,10 +29,10 @@ namespace UnityServicesToolkit.Core
         {
             if (!gameObject.DontDestroyOnLoadIfSingle<MonoServicesToolKit>())
                 return;
-            Memory.MonoServicesToolKit = this;
+            ServicesMemory.MonoServicesToolKit = this;
             
             //TO DO : Bu fonksyon asenkron olacak bitince load scene geçecek
-            await Memory.Initialize();
+            await ServicesMemory.Initialize();
         }
     }
 }

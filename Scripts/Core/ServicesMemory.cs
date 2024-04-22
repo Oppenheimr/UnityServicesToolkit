@@ -2,7 +2,7 @@
 
 namespace UnityServicesToolkit.Core
 {
-    public static class Memory
+    public static class ServicesMemory
     {
         public static MonoServicesToolKit MonoServicesToolKit { get; set; }
         
